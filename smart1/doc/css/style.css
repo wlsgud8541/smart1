@@ -1,0 +1,290 @@
+@charset "UTF-8";
+@font-face{
+	src: url("../font/NanumPenScript-Regular.ttf");
+	font-family: "NanumPenScript";
+}
+
+html{
+	width : 100%;
+	height: 100%;
+	background-color: #white;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.main_div{
+	margin-left: 15%;
+	height: 650px;
+	width: 70%;
+}
+
+header{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	border-bottom: 3px solid black;
+	background-image: url('../photo/main_img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title_div{
+	position: relative;
+	top: 50px;
+	margin-top: -20px;
+}
+
+nav {
+	float : left;
+	width: 14%;
+	height: 650px;
+	background-color: #1B8EF2; 
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.nav_div {
+	width: 100%;
+	height: 650px;
+}
+
+.nav_div_menu{
+	background-color: #1B8EF2;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.list_content{
+	margin-left: -20px; 
+}
+
+.list_item{
+	list-style-type: none;
+/* 	padding-top:10px;
+	padding-bottom: 20px; */
+	margin-left: -20px;
+	margin-bottom: 20px;
+	font-family: NanumPenScript; 
+	font-size: 30px;
+	text-align: center;
+}
+
+.list_item_select{
+	list-style-type: none;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    background-color: #F2A516;
+	font-family: NanumPenScript; 
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.list_item_movePage{
+	color:white;
+	text-decoration: none;
+	border-bottom: 2px solid white;
+}
+
+section{
+	float : left;
+	width: 85%;
+	height: 650px;
+	border-right: 2px solid black;
+}
+
+.section_div{
+	width: 100%;
+	height: 650px;
+	background-color: white;
+}
+
+.section_div_img{
+	float: left;
+	width: 700px;
+}
+
+.section_div_2{
+	margin-left: 7%;
+	background-color: darkgray;
+}
+
+.section_content_1{
+	width : 300px;
+	height : 300px;
+	background-color: gray;
+	border: 1px solid;
+	float: left;
+	margin: 10px;
+	background-position: 0px -35px;
+	background-image: url('../photo/img_02_01.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section_content_2{
+	width : 300px;
+	height : 300px;
+	background-color: gray;
+	border: 1px solid;
+	float: left;
+	margin: 10px;
+	background-position: -20px 40px;
+	background-image: url('../photo/img_02_02.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section_content_3{
+	width : 300px;
+	height : 300px;
+	background-color: gray;
+	border: 1px solid;
+	float: left;
+	margin: 10px;
+	background-position: center;
+	background-image: url('../photo/img_02_03.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section_content_4{
+	width : 300px;
+	height : 300px;
+	background-color: gray;
+	border: 1px solid;
+	float: left;
+	margin: 10px;
+	background-position: 0px 20px;
+	background-image: url('../photo/img_02_04.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section_content_5{
+	width : 300px;
+	height : 300px;
+	background-color: gray;
+	border: 1px solid;
+	float: left;
+	margin: 10px;
+	background-position: -55px 15px;
+	background-image: url('../photo/img_02_05.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section_content_6{
+	width : 300px;
+	height : 300px;
+	background-color: gray;
+	border: 1px solid;
+	float: left;
+	margin: 10px;
+	background-position: 0px 25px;
+	background-image: url('../photo/img_02_06.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section_content_font{
+	background-color : #1BA0F2;
+	color: white;
+	font-family: NanumPenScript;  
+	font-size: 40px;
+	margin: 0px;
+	text-align: center;
+}
+
+.section_content_img{
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section_div_3{
+	position : relative;
+	width: 100%;
+	height: 650px;
+	background-color: white;
+}
+
+.section_div_img_3{
+	width: 700px;
+	height: 500px;
+	position: absolute;
+	top: 10%;
+	left: 18%;
+	background-image: url('../photo/img_03_01.jpg');
+	background-size: cover;
+	text-align: center;
+}
+
+.section_img{
+	height: 500px;
+	display: inline-block;
+	margin-top : 40px;
+	margin-left: -40px;
+	
+}
+
+.section_div_content{
+	margin-top : 30px;
+	margin-left : 50px;
+	height : 550px;
+	float: left;
+}
+
+.content_item{
+	color: white;
+	font-family: NanumPenScript;  
+	font-size: 50px;
+	border-bottom: 2px solid white;
+}
+
+.content_info{
+	color: black;
+	font-family: NanumPenScript;  
+	font-size: 50px;
+	margin-left: -100px;
+}
+
+.content_item_1{
+	font-family: NanumPenScript;  
+	font-size: 50px;
+	margin-bottom: -3px;
+}
+
+.content_item_2{
+	font-family: NanumPenScript; 
+	font-size: 75px;
+	margin-top: -3px;
+}
+
+.content_title{
+	color: white;
+	font-family: NanumPenScript;  
+	font-size: 100px;
+}
+
+footer{
+	float :left;
+	width : 100%;
+	height : 130px;
+	text-align: center;
+	border-top: 3px solid black;
+	background-color: black;
+	background-image: url('../photo/main_img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.footer_content{
+	margin: 20px;
+	color: white;
+	font-family: NanumPenScript;  
+	font-size: 30px;
+}
