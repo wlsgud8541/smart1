@@ -136,15 +136,15 @@
 
 .inline_div_content_3{
 	position: relative;
-	left: 24px;
-	bottom: 1px;
-	font-size: 12px;
+	left: 20px;
+	bottom: 0.2px;
+	font-size: 11.5px;
 	font-weight: bold;
 }
 
 .inline_div_content_4{
 	position: relative;
-	left: 19px;
+	left: 17px;
 	font-size: 12px;
 	color: gray;
 }
