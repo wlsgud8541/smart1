@@ -5,7 +5,7 @@
 	padding-top: 2%;	
 	padding-bottom: 10%;	
 	width: 100%;
-	height: 1500px;
+	height: 2300px;
 	/* background-color: blue; */ 
 }
 
@@ -643,28 +643,46 @@
 
 .enter_music_header{
 	width: 750px;
-	height: 49px;
+	height: 29px;
 }
 
 #music_header_span1{
 	float: right;
 }
 
-.music_list_detail{
+.music_content{
+	width: 750px;
+	height: 406px;
+}
+
+.music_list{
+	display: inline-block;
 	width: 360px;
 	height: 384px;
 }
 
+#music_list_1{
+	margin-right: 23px;
+}
+
+.music_list_detail{
+	width: 360px;
+	height: 48px;
+	margin: 0px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
 .music_span{
-	display: inline-block;
 	font-size: 16px;
 	font-weight: 1000;
+	float: left;
+	margin: 5px 20px 0px 20px;
 }
 
 .music_img_case{
-	display: inline-block;
-	width: 48px;
-	height: 48px;
+	float: left;
+	margin-right: 15px;
 }
 
 .music_img{
@@ -672,4 +690,92 @@
 	height: 48px;
 }
 
+.music_info{
+	float: left;
+	margin-top: 6px;
+	width: 150px;
+}
 
+.music_info_title{
+	display: block;
+	width: 150px;
+	height: 16px;
+	margin-bottom: 5px;
+	font-size: 13px;
+	font-weight: 600;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.music_info_singer{
+	float: left;
+	font-size: 12px;
+	margin-right: 7px;
+}
+
+.music_info_album{
+	float: left;
+	display: inline-block;
+	font-size: 12px;
+	color: gray;	
+	width: 80px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis; 
+}
+
+/* 재생 아이콘 */
+.music_icon_div_1{
+	display: inline-block;
+	width: 35px;
+	position: relative;
+	top: 15px;
+	left: 31px;
+}
+
+.music_icon_1{
+ 	/* border: 1px solid red; */
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+}
+
+.music_img_1{
+	width: 500px;
+	height: 500px;
+	position: relative;
+	bottom: 74px;
+	right: 482px;
+} 
+
+/* 가사 아이콘 */
+.music_icon_div_2{
+	display: inline-block;
+	width: 35px;
+	position: relative;
+	top: 16.5px;
+	left: 26px;
+}
+
+.music_icon_2{
+ 	/* border: 1px solid red; */
+	width: 19px;
+	height: 19px;
+	overflow: hidden;
+}
+
+.music_img_2{
+	width: 500px;
+	height: 500px;
+	position: relative;
+	bottom: 377px;
+	right: 458px;
+}
+
+.music_hr{
+	background-color: lightgray;
+	height: 1px;
+	border: 0;
+	margin: 0px;
+} 
