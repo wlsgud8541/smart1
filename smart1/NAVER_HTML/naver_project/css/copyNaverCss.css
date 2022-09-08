@@ -248,7 +248,7 @@
 	text-decoration: none;
 	font-size: 13px;
 	font-weight: bold;
-	background-color: #0147B0;
+	background-color: #5290ff;
 	color: white;
 }
 
@@ -864,6 +864,7 @@
 	bottom: 3px;
 	border-radius : 15px;
 	background-color: #5290ff;
+	margin-right: 7px;
 }
 
 .recommend_menu_all{
@@ -872,4 +873,33 @@
 	width: 40px;
 	color: white;
 	border-right: 0px;
+}
+
+.side_border{
+	border-right: 1px solid #dae1e6;
+	width: 35px;
+}
+
+.dot_margin{
+	margin-left: 10px;
+	margin-right: 4px;
+	color: #dae1e6;
+}
+
+.margin_left8{
+	margin-left: 8px;
+}
+
+.recommend_color{
+	color:#5290ff;
+}
+
+.black_color{
+	color:black;
+}
+
+.recommend_content_detailList{
+	display: inline-block;
+	margin: 0px 6px -5px 6px;
+	vertical-align: top;
 }

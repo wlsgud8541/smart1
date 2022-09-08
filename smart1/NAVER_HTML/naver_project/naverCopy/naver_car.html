@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="styleSheet" href="../css/copyNaverCss.css">
-<title>naver copy</title>
+<title>Insert title here</title>
+<link type="text/css" rel="stylesheet" href="../css/copyNaverCss.css">
 </head>
 <body>
 	<div class="main_frame">
@@ -46,17 +46,64 @@
 					<ul class="subject_list_all">
 						<li><a class="list_button" href="./naver_enter.html">엔터</a></li>
 						<li><a class="list_button" href="./naver_sports.html">스포츠</a></li>
-						<li><a class="list_button" href="./naver_car.html">자동차</a></li>
+						<li><a class="list_button" id="list_button_check_3" href="./naver_car.html">자동차</a></li>
 						<li><a class="list_button" href="#">웹툰</a></li>
-						<li><a class="list_button" id="list_button_check_1" href="./naver_economy.html">경제</a></li>
+						<li><a class="list_button" href="./naver_economy.html">경제</a></li>
 						<li><a class="list_button" href="./naver_recommend.html">추천·구독</a></li>
 						<li><a class="list_button" href="./naver_recipe.html">레시피</a></li>
 						<li><a class="list_button" href="#">리빙</a></li>
 					</ul>
 			</div>
 			<!-- 게시글 노출 영역 -->
-			<div>
-				<!-- 게시글 리스트 영역 -->
+			<!-- 메인 파트 -->
+			<div class="enter_content_div">	<!-- 전체 사이즈 설정 -->
+				<div class="enter_content_main"> <!-- 메인 노출 파트 설정 -->
+					<div class="enter_content_main_img"> <!-- 이미지 설정 -->
+						<img class="enter_content_img" alt="mainPart" src="../img/enter_img_1.jpeg">
+					</div>
+					<div class="enter_content_main_text"> <!-- 글자 부분 설정 -->
+						<span class="enter_content_text">스타 리얼리티</span>
+						<span class="content_list_economy_span2" id="enter_content_text2">[ITZY?ITZY!(있지?있지!)] EP105</span>
+						<span class="content_list_economy_span5" id="enter_content_text3">JYPnation</span>
+					</div>
+				</div>
+				<!-- 메인파트 끝 -->
+				<!-- 서브 파트 -->
+				<div class="enter_content_sub">
+					<div class="enter_content_sub_list">
+						<div class="enter_content_sub_img">
+							<img class="enter_content_img_2" alt="subpart" src="../img/enter_img_2.jpeg">
+						</div>
+						<div class="enter_content_sub_text">
+							<span class="enter_content_text">15초 예고</span>
+							<span class="content_list_economy_span2" id="enter_content_text2">[청춘MT] 보기만 해도 배가 부른<br>미슐랭 케미 5스타 맛집🍽</span>
+							<span class="content_list_economy_span5" id="enter_content_text3">티빙(TVING)</span>
+						</div>
+					</div>
+					<div class="enter_content_sub_list">
+						<div class="enter_content_sub_img">
+							<img class="enter_content_img_2" alt="subpart" src="../img/enter_img_3.jpeg">
+						</div>
+						<div class="enter_content_sub_text">
+							<span class="enter_content_text">Stage Mix</span>
+							<span class="content_list_economy_span2" id="enter_content_text2">보아×최예나 - 온리 원<br>(BoA × YENA - Only One)</span>
+							<span class="content_list_economy_span5" id="enter_content_text3">ALL THE K-POP</span>
+						</div>
+					</div>
+					<div class="enter_content_sub_list">
+						<div class="enter_content_sub_img">
+							<img class="enter_content_img_2" alt="subpart" src="../img/enter_img_4.jpeg">
+						</div>
+						<div class="enter_content_sub_text">
+							<span class="enter_content_text">웨이브 오리지널</span>
+							<span class="content_list_economy_span2" id="enter_content_text2">[위기의 X] 청약 롤러코스터, 다음<br>역은 천국... 아니 지옥입니다🎢</span>
+							<span class="content_list_economy_span5" id="enter_content_text3">웨이브(Wavve)</span>
+						</div>
+					</div>
+				</div>
+				<!-- 서브파트 끝 -->
+				<hr class="hr">
+				<!-- 리스트 메뉴 시작-->
 				<div>
 					<ul class="content_list">
 						<li class="content_list_detail">
@@ -121,43 +168,22 @@
 						</li>
 					</ul>
 				</div>
-				<hr class="hr_2">
-				<!-- 게시글 중단 3개 노출 영역 -->
+				<!-- 리스트 메뉴 끝-->
+				<!-- 자동차 리스트 시작 -->
+				<hr class="hr">
 				<div>
-					<ul class="content_list">
-						<li class="content_list_topContent">
-							<div class="img_case_middle">
-								<img class="content_list_detail_middleImg" alt="게시글 이미지" src="../img/economy_img_6.jpg">
-							</div>
-							<div class="content_list_detail_middleDiv">
-								<span class="content_list_economy_span2">부산 집값 - 정말 큰일났습니다.#부산부동산</span>
-								<span class="content_list_economy_span4">주슨생tv</span>
-								<span class="content_list_economy_span5"><strong>·</strong> 6일 전</span>
-							</div>
-						</li>
-						<li class="content_list_topContent" id="content_list_middleContent">
-							<div class="img_case_middle">
-								<img class="content_list_detail_middleImg" alt="게시글 이미지" src=../img/economy_img_7.jpg>
-							</div>
-							<div class="content_list_detail_middleDiv">
-								<span class="content_list_economy_span2"> 부동산이 하락할 때 반드시 해야 하는 3가지 (단희쌤 1부) _ 22.09.01 방송분</span>
-								<span class="content_list_economy_span4">단희TV</span>
-								<span class="content_list_economy_span5"><strong>·</strong> 3일 전</span>
-							</div>
-						</li>
-						<li class="content_list_topContent">
-							<div class="img_case_middle">
-								<img class="content_list_detail_middleImg" alt="게시글 이미지" src="../img/economy_img_8.jpg">
-							</div>
-							<div class="content_list_detail_middleDiv">
-								<span class="content_list_economy_span2"> "색이 변하는 냉장고"…IFA 점령한 LG 혁신가전</span>
-								<span class="content_list_economy_span6">한국경제TV - 신속한 경제/증권 채널</span>
-								<span class="content_list_economy_span5"><strong>·</strong> 3일 전</span>
-							</div>
-						</li>
-					</ul>
+					<div>
+						<span>주목할만한 신차</span>
+					</div>
+					<div>
+						<img alt="차 이미지" src="#">
+						<div>
+							<span>차 이름</span>
+							<span>볼보</span>
+						</div>
+					</div>
 				</div>
-				<hr class="hr_3">	
+				<!-- 자동차 리스트 끝-->
 				<div class="naver_icon">
 					<div class="plus_icon">
 						<img class="icon_img_4" alt="화살표아이콘" src="../icon/naver.png">
@@ -168,6 +194,6 @@
 				</div>
 			</div>
 		</div>
-	</div>	
+	</div>
 </body>
 </html>
