@@ -674,10 +674,13 @@
 }
 
 .music_span{
+	display: inline-block;
+	width: 30px;
+	text-align: center;
 	font-size: 16px;
 	font-weight: 1000;
 	float: left;
-	margin: 5px 20px 0px 20px;
+	margin: 5px 20px 0px 10px;
 }
 
 .music_img_case{
@@ -693,7 +696,8 @@
 .music_info{
 	float: left;
 	margin-top: 6px;
-	width: 150px;
+	width: 195px;
+	margin-right: -45px;
 }
 
 .music_info_title{
@@ -731,7 +735,7 @@
 	width: 35px;
 	position: relative;
 	top: 15px;
-	left: 31px;
+	left: 23px;
 }
 
 .music_icon_1{
@@ -755,7 +759,7 @@
 	width: 35px;
 	position: relative;
 	top: 16.5px;
-	left: 26px;
+	left: 18px;
 }
 
 .music_icon_2{
