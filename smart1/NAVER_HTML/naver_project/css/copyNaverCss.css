@@ -581,7 +581,6 @@
 }
 
 .enter_content_text2{
-/* 	display: block; */	
 	margin-bottom: 3px;
 	font-weight: bold;
 	font-size: 13px;
@@ -679,6 +678,11 @@
 
 #content_list_enter_span4{
 	font-weight: 300;
+}
+
+#content_list_enter_span5{
+	font-weight: 300;
+	width: 400px;
 }
 
 .enter_music_header{
@@ -823,3 +827,25 @@
 	border: 0;
 	margin: 0px;
 } 
+
+/* 스포츠 */
+#sports_top_div{
+	height: 80px;
+}
+
+.sports_content_detailList{
+	display: inline-block;
+	margin: 0px 6px 25px 6px;
+	vertical-align: top;
+}
+
+.sports_content_text2{
+	width: 180px;
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.sports_color{
+	color: #0147b5;
+}
