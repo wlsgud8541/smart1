@@ -25,6 +25,10 @@
 	display: inline;
 }
 
+.float_r_text{
+	float : right;
+}
+
 .inline_div_content_1{
 	font-size: 13.5px;
 	font-weight: bold;
@@ -848,4 +852,24 @@
 }
 .sports_color{
 	color: #0147b5;
+}
+
+/* 추천 구독 */
+.board_radius{
+	float: left;
+	display: inline-block;
+	width: 45px;
+	height: 25px;
+	position: relative;
+	bottom: 3px;
+	border-radius : 15px;
+	background-color: #5290ff;
+}
+
+.recommend_menu_all{
+	display:inline-block;
+	margin: 3px 1px 0px 0px;
+	width: 40px;
+	color: white;
+	border-right: 0px;
 }
