@@ -181,15 +181,18 @@
 }
 
 .list_button{
+	display: inline-block;
+	width: 92px;
+	height: 49px;
 	text-decoration: none;
 	color: black;
 }
 
-.list_button_check_1{
+#list_button_check_1{
 	list-style-type: none;
 	display: table-cell;
 	border: 1px solid lightgray;
-	width: 94px;
+	width: 92px;
 	height: 49px;
 	line-height: 49px;
 	text-align: center;
@@ -200,11 +203,11 @@
 	color: white;
 }
 
-.list_button_check_2{
+#list_button_check_2{
 	list-style-type: none;
 	display: table-cell;
 	border: 1px solid lightgray;
-	width: 94px;
+	width: 92px;
 	height: 49px;
 	line-height: 49px;
 	text-align: center;
@@ -215,11 +218,11 @@
 	color: white;
 }
 
-.list_button_check_3{
+#list_button_check_3{
 	list-style-type: none;
 	display: table-cell;
 	border: 1px solid lightgray;
-	width: 94px;
+	width: 92px;
 	height: 49px;
 	line-height: 49px;
 	text-align: center;
@@ -227,6 +230,21 @@
 	font-size: 13px;
 	font-weight: bold;
 	background-color: #E65DA0;
+	color: white;
+}
+
+#list_button_check_4{
+	list-style-type: none;
+	display: table-cell;
+	border: 1px solid lightgray;
+	width: 92px;
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #0147B0;
 	color: white;
 }
 
@@ -250,7 +268,7 @@
 	margin: 0px 0px 20px 0px;
 }
 
-.subject_list_all > li{
+.subject_list_all > li {
 	list-style-type: none;
 	display: table-cell;
 	border: 1px solid lightgray;
@@ -262,23 +280,33 @@
 	font-weight: bold;
 }
 
-/* .subject_list{
-	list-style-type: none;
-	display: table-cell;
-	border: 1px solid lightgray;
-	width: 92px;
-	height: 49px;
-	line-height: 49px;
-	text-align: center;
-	font-size: 13px;
-	font-weight: bold;
-} */
+.subject_list_all > li:nth-child(1) a:hover {
+	color: #e65da0;
+}
+.subject_list_all > li:nth-child(2) a:hover{
+	color: #0147b5;
+}
+.subject_list_all > li:nth-child(3) a:hover{
+	color: #4a94e1;
+}
+.subject_list_all > li:nth-child(4) a:hover{
+	color: #66c971;
+}
+.subject_list_all > li:nth-child(5) a:hover{
+	color: #35ae5e;
+}
+.subject_list_all > li:nth-child(6) a:hover{
+	color: #5290ff;
+}
+.subject_list_all > li:nth-child(7) a:hover{
+	color: #ebaa00;
+}
+.subject_list_all > li:nth-child(8) a:hover{
+	color: #c08d31;
+}
 
 
 /* 메인 리스트 영역 css */
-
-
-
 /* 경제 */
 .content_list_detail{
 	list-style: none;
@@ -740,35 +768,6 @@
 	overflow: hidden;
 	text-overflow: ellipsis; 
 }
-
-/* .music_info_title{
-	display: block;
-	width: 150px;
-	height: 16px;
-	margin-bottom: 5px;
-	font-size: 13px;
-	font-weight: 600;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
-.music_info_singer{
-	float: left;
-	font-size: 12px;
-	margin-right: 7px;
-}
-
-.music_info_album{
-	float: left;
-	display: inline-block;
-	font-size: 12px;
-	color: gray;	
-	width: 80px;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis; 
-} */
 
 /* 재생 아이콘 */
 .music_icon_div_1{
