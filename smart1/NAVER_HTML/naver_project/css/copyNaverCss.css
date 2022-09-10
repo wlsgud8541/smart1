@@ -903,3 +903,52 @@
 	margin: 0px 6px -5px 6px;
 	vertical-align: top;
 }
+
+/*  네이버 자동차 */
+
+/* .naver_introduce_car{
+	width: 750px;
+	height: 205px;
+}
+ */
+
+.car_list{
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.car_list_content{
+	display: inline-block;
+	width: 179px;
+	height: 159px;
+}
+
+.car_list:nth-child(2){
+	margin-left: 5px;
+}
+.car_list:nth-child(3){
+	margin-left: 5px;
+}
+.car_list:nth-child(4){
+	margin-left: 5px;
+}
+
+.car_content_img_div{
+	width: 179px;
+	height: 84px;
+	overflow: hidden;
+}
+
+.car_content_img{
+	width: 179px;
+	height: 84px;
+	transition: all 0.1s linear;
+}
+
+.car_content_img:hover{
+	transform: scale(1.04);
+}
+
+
+
+
