@@ -252,6 +252,21 @@
 	color: white;
 }
 
+#list_button_check_5{
+	list-style-type: none;
+	display: table-cell;
+	border: 1px solid lightgray;
+	width: 92px;
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #c08d31;
+	color: white;
+}
+
 .subject_list_div{
 	position: relative;	
 	margin: 0px;
@@ -906,12 +921,6 @@
 
 /*  네이버 자동차 */
 
-/* .naver_introduce_car{
-	width: 750px;
-	height: 205px;
-}
- */
-
 .car_list{
 	display: inline-block;
 	margin-top: 30px;
@@ -949,6 +958,36 @@
 	transform: scale(1.04);
 }
 
+/*  네이버 리빙 */
 
+.living_color{
+	color: #c08d31;
+}
 
+.living_middle_content{
+	margin-left: -42px;
+	margin-bottom: 20px;
+}
 
+.naver_living_1{
+	display: inline-block;
+	width: 35px;
+	position: relative;
+    top: 587px;
+    left: 174px;
+}
+
+.naver_living_icon_1{
+ 	/* border: 2px solid red; */
+	width: 14px;
+	height: 14px;
+	overflow: hidden;
+}
+
+.living_iconImg_1{
+	width: 600px;
+	height: 600px;
+	position: relative;
+	bottom: 570px;
+	left: 580px;
+} 
