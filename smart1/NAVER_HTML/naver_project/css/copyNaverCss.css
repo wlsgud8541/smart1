@@ -5,7 +5,7 @@
 	padding-top: 2%;	
 	padding-bottom: 10%;	
 	width: 100%;
-	height: 2300px;
+	height: auto;
 	/* background-color: blue; */ 
 }
 
@@ -264,6 +264,21 @@
 	font-size: 13px;
 	font-weight: bold;
 	background-color: #c08d31;
+	color: white;
+}
+
+#list_button_check_6{
+	list-style-type: none;
+	display: table-cell;
+	border: 1px solid lightgray;
+	width: 92px;
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #66c971;
 	color: white;
 }
 
@@ -964,9 +979,13 @@
 	color: #c08d31;
 }
 
+.lv_div{
+	margin-bottom: -40px;
+}
+
 .living_middle_content{
 	margin-left: -42px;
-	margin-bottom: 20px;
+	margin-bottom: -10px;
 }
 
 .naver_living_1{
@@ -991,3 +1010,167 @@
 	bottom: 570px;
 	left: 580px;
 } 
+
+.living_font{
+	color: #404040;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.loving_content_fc{
+	color: #404040;
+	font-weight: 300;
+}
+
+.lv_img_case_middle{
+	display: inline-block;
+	width: 232px;
+	height: 130px;
+	margin: 0px 15px 0px 2px;
+	overflow: hidden;
+	z-index: 2;
+}
+
+.lv_content_list_detail_middleImg{
+	display: inline-block;
+	width: 232px;
+	height: 130px;
+	transition: all 0.1s linear;
+}
+
+.lv_content_list_detail_middleImg:hover{
+	transform: scale(1.04);
+}
+
+.lv_icon_3{
+	display: block;
+	width: 35px;
+	position: relative;
+    bottom: 141px;
+    left: 721px;
+}
+
+.lv_plus_icon_3{
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.lv_img_text_div{
+	position: relative;
+	top: 30px;
+	left: 2px;
+	background-color: #c08d31;
+	width: 43.5px;
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	z-index: 1;
+}
+
+.lv_img_text{
+	display: inline-block;
+	margin-top: 6px;
+}
+	
+/* 네이버 웹툰 */
+.wt_color{
+	color: #66c971;
+}
+
+#wt_content_text1{
+	margin: 5px 0px 7px 0px;
+	font-weight: bold;
+	font-size: 13px;
+	white-space: normal;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}	
+
+#wt_content_text2{
+	margin-bottom: -13px;
+}
+
+.wt_content_header{
+	margin-top: 25px;
+	width: 750px;
+	height: 29px;
+}
+
+.wt_content_span1{
+	float: left;
+	display: inline-block;
+	width: 90px;
+	border-right: 1px solid #dae1e6;
+	font-size: 13.5px;
+	font-weight: bold;
+}
+
+.wt_board_radius{
+	float: left;
+	display: inline-block;
+	width: 45px;
+	height: 25px;
+	position: relative;
+	bottom: 3px;
+	border-radius : 15px;
+	background-color: #66c971;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+}
+
+.wt_board_radius_text{
+	display: inline-block;
+	margin-top: 4px;
+}
+
+.wt_rank_font{
+	font-size: 13px;
+	font-weight: 600;
+	color: #404040;
+}
+
+
+.wt_info{
+	float: left;
+	margin-top: 6px;
+	width: 230px;
+	margin-right: -45px;
+}
+
+.wt_info > span:first-child{
+	display: block;
+	width: 150px;
+	height: 16px;
+	margin-bottom: 5px;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.wt_info > p{
+	margin: 0px;
+	width: 220px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.wt_info > p > span:nth-child(1){
+	float: left;
+	font-size: 12px;
+	margin-right: 7px;
+}
+
+.wt_info > p > span:last-child{
+	float: left;
+	font-size: 12px;
+	color: gray;	
+	width: 80px;
+}
+
+
