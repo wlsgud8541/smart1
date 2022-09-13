@@ -282,6 +282,21 @@
 	color: white;
 }
 
+#list_button_check_7{
+	list-style-type: none;
+	display: table-cell;
+	border: 1px solid lightgray;
+	width: 92px;
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #4a94e1;
+	color: white;
+}
+
 .subject_list_div{
 	position: relative;	
 	margin: 0px;
@@ -941,11 +956,6 @@
 	margin-top: 30px;
 }
 
-.car_list_content{
-	display: inline-block;
-	width: 179px;
-	height: 159px;
-}
 
 .car_list:nth-child(2){
 	margin-left: 5px;
@@ -971,6 +981,17 @@
 
 .car_content_img:hover{
 	transform: scale(1.04);
+}
+
+.car_list_content{
+	display: inline-block;
+	width: 179px;
+	height: 84px;
+	position: static;
+}
+
+.naver_car_color{
+	color: #4a94e1;	
 }
 
 /*  네이버 리빙 */
@@ -1172,5 +1193,4 @@
 	color: gray;	
 	width: 80px;
 }
-
 
