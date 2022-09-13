@@ -3,5 +3,55 @@
 	height: 1018px;
 	margin: 0 auto;
 	text-align: cemter;
+	padding-top: 100px;
 }
 
+input:focus{
+	outline: none;
+}
+
+.basic_font{
+	font-weight: 800;
+	font-size: 15px;
+}
+
+.margin_bottom7{
+	display: block;
+	margin-bottom: 7px;
+}
+
+.margin_bottom20{
+	display: block;
+	margin-bottom: 20px;
+}
+
+.inline_div{
+	display: inline-block;
+}
+
+.cursor:hover{
+	cursor: pointer;
+}
+
+.input_div_type_1{
+	width: 460px;
+	height: 51px;
+	border: 1px solid black;
+}
+
+.input_div_type_2{
+	width: 146px;
+	height: 51px;
+	border: 1px solid black;
+}
+
+.none_style_input{
+	border: none;
+	border: 0px;
+	margin: 16px 0px 0px 15px;
+}
+
+.email_basic{
+	float: right;
+	margin: 14px 10px 0px 0px;
+}
