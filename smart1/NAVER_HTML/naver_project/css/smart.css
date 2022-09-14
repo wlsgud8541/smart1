@@ -1,0 +1,86 @@
+.mxw600 {
+	max-width: 600px;
+}
+.mxw650 {
+	max-width: 650px;
+}
+.mxw700 {
+	max-width: 700px;
+}
+.mxw750 {
+	max-width: 750px;
+}
+.box50 {
+	width:50px;
+	height: 50px;
+}
+
+/* 마진 관련 클래스 */
+.mgl10{
+	margin-left: 10px;
+}
+.mgl35{
+	margin-left: 35%;
+}
+.mgl45{
+	margin-left: 45%;
+}
+.mgb15{
+	margin-bottom: 15px;
+}
+.mgb20{
+	margin-bottom: 20px;
+}
+
+/* 패딩 관련 클래스 */
+.pdl10{
+	padding-left: 10px;
+}
+.pdr10{
+	padding-right: 10px;
+}
+.pdh30{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* 오버플로우 클래스 */
+.hidden{
+	overflow: hidden;
+}
+
+/* 폰트 관련 클래스 */
+.ft16{
+	font-size: 16pt;	
+}
+.ft18{
+	font-size: 18pt;	
+}
+.bd{
+	font-weight: bold;
+}
+
+/*크기 관련*/
+.wd15{
+	width: 15%!important;
+}
+.wd30{
+	width: 30%;
+}
+.wd100{
+	width: 100px;
+}
+.ht100{
+	height: 100px;
+}
+
+/*디스플레이 관련*/
+.block{
+	display: block;
+}
+.inlineBlock{
+	display: inline-block;
+}
+.hidden{
+	display: hidden;
+}

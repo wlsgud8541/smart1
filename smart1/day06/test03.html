@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>W3.CSS</title>
+<!-- <link type="text/css" rel="stylesheet" href="../css/w3.css">
+<link type="text/css" rel="stylesheet" href="../css/smart.css"> -->
+<link type="text/css" rel="stylesheet" href="../NAVER_HTML/naver_project/css/w3.css">
+<link type="text/css" rel="stylesheet" href="../NAVER_HTML/naver_project/css/smart.css">
+<style type="text/css">
+	html, body{
+		height: 100%;
+	}
+</style>
+</head>
+<body>
+	<div class="w3-display-container" style="height: 100%;">
+		<div class="w3-display-middle mxm700">
+			<h1 class="w3-padding w3-pink w3-center w3-card-4 w3-round-large mgb20">회원가입</h1>
+			<div class="w3-col w3-round-large w3-card-4 mgb20 pdh30">
+				<!-- 이름 -->			
+				<div class="w3-col mgb15">
+					<div class="w3-col m3 w3-right-align w3-text-gray pdr10 ft18 bd">
+						<label for="name">이름 : </label>
+					</div>
+					<div class="w3-col m9">
+						<input type="text" name="name" id="name" class="w3-col m10 w3-input w3-border">
+					</div>
+				</div>
+				<!-- 아이디 -->			
+				<div class="w3-col mgb15">
+					<div class="w3-col m3 w3-right-align w3-text-gray pdr10 ft18 bd">
+						<label for="id">I D : </label>
+					</div>
+					<div class="w3-col m9">
+						<input type="text" name="id" id="id" class="w3-col m8 w3-input w3-border">
+						<div class="w3-col m2 w3-blue w3-hover-aqua w3-button w3-round-large mgl10 wd15">check</div>
+					</div>
+				</div>
+				<!-- 비밀번호 -->
+				<div class="w3-col mgb15">
+					<div class="w3-col m3 w3-right-align w3-text-gray pdr10 ft18 bd">
+						<label for="pw">P W : </label>
+					</div>
+					<div class="w3-col m9">
+						<input type="password" name="pw" id="pw" class="w3-col m10 w3-input w3-border">
+					</div>
+				</div>
+				<!-- 비밀번호 확인 -->
+				<div class="w3-col mgb15">
+					<div class="w3-col m3 w3-right-align w3-text-gray pdr10 ft18 bd">
+						<label for="rePw">re P W : </label>
+					</div>
+					<div class="w3-col m9">
+						<input type="password" name="rePw" id="rePw" class="w3-col m10 w3-input w3-border">
+					</div>
+				</div>
+				<!-- 이메일 -->
+				<div class="w3-col mgb15">
+					<div class="w3-col m3 w3-right-align w3-text-gray pdr10 ft18 bd">
+						<label for="eMail">eMail : </label>
+					</div>
+					<div class="w3-col m9">
+						<input type="password" name="eMail" id="eMail" class="w3-col m10 w3-input w3-border">
+					</div>
+				</div>
+				<!-- 전화번호 -->
+				<div class="w3-col mgb15">
+					<div class="w3-col m3 w3-right-align w3-text-gray pdr10 ft18 bd">
+						<label for="Phone">Phone : </label>
+					</div>
+					<div class="w3-col m9">
+						<input type="password" name="Phone" id="Phone" class="w3-col m10 w3-input w3-border">
+					</div>
+				</div>
+				<!-- 성별 -->				
+				<div class="w3-col mgb15">
+					<div class="w3-col m3 w3-right-align w3-text-gray pdr10 ft18 bd">
+						<label for="gen">Gender : </label>
+					</div>
+					<div class="w3-col m7">
+						<div class="w3-half">
+							<label for="mgen" class="w3-col m6 w3-center w3-right ft16">남자</label>
+							<input type="radio" name="gen" id="mgen" value="m" class="w3-col m4 w3-radio w3-right" checked="checked" onchange="genEvent(this.value)">
+						</div>				
+						<div class="w3-half">
+							<label for="wgen" class="w3-col m6 w3-center w3-right ft16">여자</label>
+							<input type="radio" name="gen" id="wgen" value="w" class="w3-col m4 w3-radio w3-right" onchange="genEvent(this.value)">
+						</div>	
+					</div>			
+				</div>
+				<!-- 아바타 -->				
+				<div class="w3-col">
+					<div class="w3-col m3 w3-right-align w3-text-gray pdr10 ft18 bd">
+						<label for="avata">Avatar : </label>
+					</div>
+					<div class="w3-col m8">
+						<div id="mCbxDiv">
+							<div class="wd30 inlineBlock">
+								<label for="mAvata1" class="block ht100 mgl35"><img alt="mAvata1" class="wd30 block ht100 wd100" src="../img/mAbatar1.jpg"></label>
+								<input type="radio" name="avata" id="mAvata1" class="w3-col m4 mgl45">
+							</div>				
+							<div class="wd30 inlineBlock">
+								<label for="mAvata2" class="block ht100 mgl35"><img alt="mAvata1" class="wd30 block ht100 wd100" src="../img/mAbatar2.jpg"></label>
+								<input type="radio" name="avata" id="mAvata2" class="w3-col m4 mgl45">
+							</div>	
+							<div class="wd30 inlineBlock">
+								<label for="mAvata3" class="block ht100 mgl35"><img alt="mAvata1" class="wd30 block ht100 wd100" src="../img/mAbatar3.jpg"></label>
+								<input type="radio" name="avata" id="mAvata3" class="w3-col m4 mgl45">
+							</div>	
+						</div>
+						<div id="wCbxDiv">
+							<div class="wd30 inlineBlock">
+								<label for="wAvata1" class="block ht100 mgl35"><img alt="mAvata1" class="wd30 block ht100 wd100" src="../img/wAbatar1.jpg"></label>
+								<input type="radio" name="avata" id="wAvata1" class="w3-col m4 mgl45">
+							</div>				
+							<div class="wd30 inlineBlock">
+								<label for="wAvata2" class="block ht100 mgl35"><img alt="mAvata1" class="wd30 block ht100 wd100" src="../img/wAbatar2.jpg"></label>
+								<input type="radio" name="avata" id="wAvata2" class="w3-col m4 mgl45">
+							</div>	
+							<div class="wd30 inlineBlock">
+								<label for="wAvata3" class="block ht100 mgl35"><img alt="mAvata1" class="wd30 block ht100 wd100" src="../img/wAbatar3.jpg"></label>
+								<input type="radio" name="avata" id="wAvata3" class="w3-col m4 mgl45">
+							</div>	
+						</div>
+					</div>	
+				</div>
+			</div>
+			<!-- 버튼 태그 -->
+			<div class="w3-col w3-round-large w3-card-4 hidden">
+				<div class="w3-col w3-third w3-green w3-hover-lime w3-button">home</div>
+				<div class="w3-col w3-third w3-orange w3-hover-khaki w3-button">reset</div>
+				<div class="w3-col w3-third w3-blue w3-hover-aqua w3-button">join</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+	
+		console.log(document.getElementsByName('gen')[0].checked);
+		console.log(document.getElementsByName('gen')[1].checked);
+		
+		if(document.getElementsByName('gen')[0].checked) {
+			console.log('check1');
+			document.getElementById('mCbxDiv').style.display='block';
+			document.getElementById('wCbxDiv').style.display='none';
+		}else{
+			console.log('check2');
+			document.getElementById('mCbxDiv').style.display='none';
+ 			document.getElementById('wCbxDiv').style.display='block';
+		} 
+			
+
+	 	function genEvent(val) {
+	 		if(val == 'w'){
+	 			console.log('check3');
+	 			document.getElementById('mCbxDiv').style.display='none';
+	 			document.getElementById('wCbxDiv').style.display='block';
+			}else if(val == 'm'){
+				console.log('check4');
+				document.getElementById('mCbxDiv').style.display='block';
+				document.getElementById('wCbxDiv').style.display='none';
+			} 
+		} 
+	</script>
+</body>
+</html>
