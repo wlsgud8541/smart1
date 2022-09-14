@@ -10,30 +10,47 @@
 	<div>
 		<!-- 네이버 로고 추가 -->
 	</div>
-	<div>
-		<label for="id">아이디</label>
-		<input type="text" name="id" id="id">
+	<div class="margin_bottom20">
+		<label for="id" class="basic_font margin_bottom7 cursor">아이디</label>
+		<div class="input_div_type_1">
+			<input type="text" class="none_style_input" name="id" id="id">
+			<span class="email_basic">@naver.com</span>
+		</div>
+	</div>
+	<div class="margin_bottom20">
+		<label for="pw" class="basic_font margin_bottom7 cursor">비밀번호</label>
+		<div class="input_div_type_1">
+			<input type="password" class="none_style_input" name="pw" id="pw">
+		</div>
+	</div>
+	<div class="margin_bottom20">
+		<label for="repw" class="basic_font margin_bottom7 cursor">비밀번호 재확인</label>
+		<div class="input_div_type_1">
+			<input type="password" class="none_style_input" name="repw" id="repw">
+		</div>
+	</div>
+	<div class="margin_bottom20">
+		<label for="name" class="basic_font margin_bottom7">이름</label>
+		<div class="input_div_type_1">
+			<input type="text" class="none_style_input" name="name" id="name">
+		</div>
+	</div>
+	<div class="margin_bottom20">
+		<label for="birth_year" class="basic_font margin_bottom7 cursor" >생년월일</label>
+		<div class="inline_div">
+			<input type="text" class="input_div_type_2" name="birth_year" id="birth_year">
+		</div>
+		<div class="inline_div">
+			<select name="birth_month" class="input_div_type_2" id="birth_month">
+				<option> </option>
+			</select>
+		</div>
+		<div class="inline_div">
+			<input type="text" class="input_div_type_2" name="birth_day" id="birth_day">
+		</div>
 	</div>
 	<div>
-		<label for="pw">비밀번호</label>
-		<input type="password" name="pw" id="pw">
-	</div>
-	<div>
-		<label for="repw">비밀번호 재확인</label>
-		<input type="password" name="repw" id="repw">
-	</div>
-	<div>
-		<label for="name">이름</label>
-		<input type="text" name="name" id="name">
-	</div>
-	<div>
-		<label for="birth_year">생년월일</label>
-		<input type="text" name="birth_year" id="birth_year">
-		<input type="text" name="birth_month" id="birth_month">
-		<input type="text" name="birth_day" id="birth_day">
-	</div>
-	<div>
-		<label for="gen">성별</label>
+		<label for="gen" class="basic_font margin_bottom7 cursor" >성별</label>
 		<select id="gen" name="gen">
 			<option selected="selected">성별</option>
 			<option>남</option>
@@ -41,12 +58,14 @@
 			<option>선택안함</option>
 		</select>
 	</div>
-	<div>
-		<label for="email">본인 확인 이메일<span>(선택)</span></label>
-		<input type="text" name="email" id="email">
+	<div class="margin_bottom20">
+		<label for="email" class="basic_font margin_bottom7 cursor">본인 확인 이메일<span>(선택)</span></label>
+		<div class="input_div_type_1">
+			<input type="text" class="none_style_input" name="email" id="email">
+		</div>
 	</div>
 	<div>
-		<label for="phone2">휴대전화</label>
+		<label for="phone2" class="basic_font margin_bottom7 cursor" >휴대전화</label>
 		<select id="phone1" name="phone1">
 			<option selected="selected">대한민국 +82</option>
 			<option>가나</option>
